@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="House.exe" version="1.0.0.1" publicKeyToken="22e9bbe8dc47e05a" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="House" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="House.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 清单选项
+          如果要更改 Windows 用户帐户控制级别，请用以下节点之一替换
+          requestedExecutionLevel 节点。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+          如果要利用文件和注册表虚拟化提供
+          向后兼容性，请删除 requestedExecutionLevel 节点。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="House.exe" size="12224">
+      <assemblyIdentity name="House" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>eX1R9GvPcIAd9t0bvzvlVDxR+i0c9YAmTz9/wHABalQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="House.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=XIANG588E\xiang" issuerKeyHash="8e21a63ba2549f1cd8251c08e5201bcff2e30131" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>I/i2QAngHQO3NLX233ev+a/KjF5FjDSg+0pLCBc0y1Q=</DigestValue></Reference></SignedInfo><SignatureValue>f9cz7rdgWbGqcrcG4vlr+5XRwDPMhkmSnKV9viJ44er+EG3SYrcQpwKtLS1xqmXOsAK/cmOcxY9y8no7o7OwNOwINvi98J4d9v+cDTUibmoWrkNfi+UTL3C1ajf951050sFeDxzpVIwnvYXvC9NHDFM3wl5yln/DihtCOtJQrYY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vV8an4gg4lzlcXOBBX8TEpV10010a8nlk7v6sN9NSNqkYwRuPRUPT2JXtDT3e6aPV97QPvrs6XN9XrUHIraFD2dqaJLxmm1q8YZPWy7he3wXaAiOgdebmMkErVKo1Da6VcjMdqI5RlDE/7x0xx7MmJnMELjHoZC8LeAr/Md5+Ik=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="54cb3417084b4afba0348c455e8ccaaff9af77dff6b534b7031de00940b6f823" Description="" Url=""><as:assemblyIdentity name="House.exe" version="1.0.0.1" publicKeyToken="22e9bbe8dc47e05a" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=XIANG588E\xiang</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>N7StCVNADAnYFw7+GlCW2fXOoIVaR49YgunvSQ/pFh0=</DigestValue></Reference></SignedInfo><SignatureValue>WJj7vg5h9G56uVbJUJsHEgy+Oc9QyaVOO5EZO4u8yJxGgQEzx/+On2ohYCBtz55jgjoiIt7209yVhKIBZlmw+2rTnkN1rx8Ns4E8dumccgYR2wM875Wzf6sN9IzwnL4Crd9I+ttGAOHI6PyhwO/Q95eqReW0Ezxci+9UI7dBawA=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vV8an4gg4lzlcXOBBX8TEpV10010a8nlk7v6sN9NSNqkYwRuPRUPT2JXtDT3e6aPV97QPvrs6XN9XrUHIraFD2dqaJLxmm1q8YZPWy7he3wXaAiOgdebmMkErVKo1Da6VcjMdqI5RlDE/7x0xx7MmJnMELjHoZC8LeAr/Md5+Ik=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB1TCCAT6gAwIBAgIQdaLJGvOVTJ9LRyEHNuneNDANBgkqhkiG9w0BAQsFADApMScwJQYDVQQDHh4AWABJAEEATgBHADUAOAA4AEUAXAB4AGkAYQBuAGcwHhcNMjQwNzI2MTQxMjQ0WhcNMjUwNzI2MjAxMjQ0WjApMScwJQYDVQQDHh4AWABJAEEATgBHADUAOAA4AEUAXAB4AGkAYQBuAGcwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAL1fGp+IIOJc5XFzgQV/ExKVddNNdGvJ5ZO7+rDfTUjapGMEbj0VD09iV7Q093umj1fe0D767OlzfV61ByK2hQ9namiS8ZptavGGT1su4Xt8F2gIjoHXm5jJBK1SqNQ2ulXIzHaiOUZQxP+8dMcezJiZzBC4x6GQvC3gK/zHefiJAgMBAAEwDQYJKoZIhvcNAQELBQADgYEARESOnLAUc1WbN4JPNHQLWl6LMcud9apgJ872v8Kw/czNvNg96v8Kryep66D9RHYFHvGsqiqgB5L4vvjkOMroPRoTjb8iZPvBMS2Xpv9gppCJwMW2CVMWop86yB2S/ibd/zibPiAldN7on2gv7MifHqDqXAf3SD5k8OoE9dyFkTo=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
